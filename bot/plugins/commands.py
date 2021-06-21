@@ -23,17 +23,13 @@ async def start(bot, update):
         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
             await update.reply_text(
-                text=""" <b> ⚠️ YOU ARE NOT SUBSCRIBED OUR CHANNEL⚠️
+                text=""" <b>⚠️ YOU ARE NOT SUBSCRIBED OUR CHANNEL⚠️
 
-Join on our channel to get movies ✅
+Join on our channel to get movies /series ✅
 
+⚠️Get everything by just join our channel✅
 
-⚠️താങ്കൾ ഞങ്ങളുടെ ചാനൽ സബ്സ്ക്രൈബ് ചെയ്തിട്ട് ഇല്ല ! ⚠️
-
-
-ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ ചെയ്യതാൽ താങ്കൾക്ക് movies കിട്ടുന്നത് ആണ് ✅
-
-⬇️Channel link⬇️ </b>""",
+⬇️Channel link⬇️</b>""",
                 reply_markup=InlineKeyboardMarkup([
                     [ InlineKeyboardButton(text="⚡ Join My Channel⚡️", url=f"https://t.me/{update_channel}")]
               ])
