@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i>Found</i> <code>{leng}</code> <i>Results For Your Query:</i> <code>{query}</code>"
+    text=f"""<b>Here are the files that u requested... Please click on the files and send start button </b> \n {(len_results)} Results For Your Query: <code>{query}</code>"""
         
     try:
         await update.message.edit(
