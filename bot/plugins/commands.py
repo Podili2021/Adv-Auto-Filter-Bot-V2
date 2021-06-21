@@ -25,7 +25,7 @@ async def start(bot, update):
             await update.reply_text(
                 text=""" <b>⚠️ YOU ARE NOT SUBSCRIBED OUR CHANNEL⚠️
 
-Join on our channel to get movies /series ✅
+Join on our channel to get movies / series ✅
 
 ⚠️Get everything by just join our channel✅
 
