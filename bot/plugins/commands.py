@@ -75,7 +75,6 @@ Join on our channel to get movies / series ✅
                 video = file_id,
                 caption = caption,
                 parse_mode="html",
-                disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
@@ -95,7 +94,6 @@ Join on our channel to get movies / series ✅
                 audio = file_id,
                 caption = caption,
                 parse_mode="html",
-                disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
